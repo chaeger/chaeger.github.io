@@ -637,12 +637,19 @@ footer.sticky-bottom {
   }
 
   h2 {
-    margin-bottom: 1rem;
+    border-bottom: 1px solid $grey-color-light;
+    margin-bottom: 1.5rem;
 
     span {
       font-size: 1.5rem;
     }
   }
+
+  h3 {
+    border-bottom: 1px solid $grey-color-light;
+    margin-bottom: 1.0rem;
+  }
+
 
   h2.bibliography {
     color: var(--global-divider-color);
@@ -654,8 +661,8 @@ footer.sticky-bottom {
   }
 
   ol.bibliography {
-    list-style: none;
-    padding: 0;
+    list-style: decimal;
+    padding: 1rem;
     margin-top: 0;
 
     li {
