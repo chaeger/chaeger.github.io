@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-I am hiring a new PhD position in Machine Learning for Information and Communication Technology, focusing on Integrated Sensing and Fiber Communication. 
+I am hiring a new PhD student in Machine Learning for Information and Communication Technology, focusing on Integrated Sensing and Fiber Communication. 
 
 The deadline to apply is March 3, 2024 (Applications are reviewed continuously)
 
