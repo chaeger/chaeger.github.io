@@ -60,7 +60,7 @@
 			{% if entry.number %} no. {{entry.number}}, {% endif %}
 			{% if entry.pages %} pp. {{entry.pages}}, {% endif %}
       {% elsif entry.type == "inproceedings" %}
-        <em>{{entry.booktitle}}</em>,
+        <em>In {{entry.booktitle}}</em>,
 			{% if entry.address %}
 			  {{entry.address}},
 			{% endif %}
@@ -75,8 +75,8 @@
 {% if entry.issn %}
 [<a href="https://research.chalmers.se/publication/{{ entry.issn }}" target="_blank">PDF</a>]
 {% endif %}
-{% if entry.eprint %}
-[<a href="http://arxiv.org/abs/{{ entry.eprint }}" target="_blank">arXiv</a>]
+{% if entry.arxiv %}
+[<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
 {% endif %}
 {% if entry.keywords %}
 	{% if entry.keywords contains 'slides' %}

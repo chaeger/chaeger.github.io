@@ -15,7 +15,7 @@ nav: true
 
 <h3>journals</h3>
 
-{% bibliography -f papers -q @article[]* %}
+{% bibliography -f papers -q @article[keywords!=preprint]* %}
 
 <h3>conference</h3>
 
